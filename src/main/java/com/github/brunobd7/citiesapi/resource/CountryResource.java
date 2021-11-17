@@ -1,9 +1,8 @@
 package com.github.brunobd7.citiesapi.resource;
 
-import com.github.brunobd7.citiesapi.model.Country;
+import com.github.brunobd7.citiesapi.entities.Country;
 import com.github.brunobd7.citiesapi.repository.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 import java.util.Objects;
 
 @RestController

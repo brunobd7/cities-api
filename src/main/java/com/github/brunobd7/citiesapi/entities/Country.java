@@ -1,4 +1,4 @@
-package com.github.brunobd7.citiesapi.model;
+package com.github.brunobd7.citiesapi.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
